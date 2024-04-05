@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="6.0.1" />
+    <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="6.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\IzmırGunesAPI.Application\IzmirGunesAPI.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\IzmirGunesAPI.Infrastructure\IzmirGunesAPI.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\IzmırGunesAPI.Persistence\IzmirGunesAPI.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
