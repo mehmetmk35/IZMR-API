@@ -1,4 +1,5 @@
-﻿using IzmirGunesAPI.Application.Features.Queries.GetInvoice;
+﻿using IzmirGunesAPI.Application.Features.Queries.GetDetailInvoice;
+using IzmirGunesAPI.Application.Features.Queries.GetInvoice;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +22,12 @@ namespace IzmirGunesAPI.API.Controllers
             GetInvoiceQueryResponse result = await _mediator.Send(getInvoiceQueryRequest);
             return Ok(result);
 
-
+        }
+        [HttpGet("detail")]
+        public async Task<IActionResult> GetDetailInvoice([FromQuery] GetDetailInvoiceQueryRequest getDetailInvoiceQueryRequest)
+        {
+            GetDetailInvoiceQueryResponse result = await _mediator.Send(getDetailInvoiceQueryRequest);
+            return Ok(result);
         }
     }
 }

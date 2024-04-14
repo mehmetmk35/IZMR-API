@@ -17,4 +17,8 @@
     <ProjectReference Include="..\..\Core\IzmırGunesAPI.Application\IzmirGunesAPI.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\NewFolder\" />
+  </ItemGroup>
+
 </Project>
