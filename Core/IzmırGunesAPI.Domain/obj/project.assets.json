@@ -8,25 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Users\\s4in\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj",
+      "projectUniqueName": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj",
       "projectName": "IzmirGunesAPI.Domain",
-      "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\obj\\",
+      "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj",
+      "packagesPath": "C:\\Users\\s4in\\.nuget\\packages\\",
+      "outputPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\s4in\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -37,7 +37,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -71,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

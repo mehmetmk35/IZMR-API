@@ -1,6 +1,7 @@
 ﻿using IzmirGunesAPI.Application.Features.Queries.GetDetailInvoice;
 using IzmirGunesAPI.Application.Features.Queries.GetInvoice;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace IzmirGunesAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = "Admin")]
     public class InvoiceController : ControllerBase
     {
         private readonly IMediator _mediator;

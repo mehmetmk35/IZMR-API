@@ -9,7 +9,7 @@ namespace IzmirGunesAPI.Persistence.Contexts
     {
       
 
-        public IDbCommand PrepareCommand(string commandText, CommandType commandType, ConnectionType connType, string Sirket)
+        public IDbCommand PrepareCommand(string commandText, CommandType commandType, ConnectionType connType, string company)
         {
             IDbCommand  cmd = null;
             switch (connType)
@@ -17,7 +17,8 @@ namespace IzmirGunesAPI.Persistence.Contexts
                  
                 case Domain.Entity.Enumerations.ConnectionType.NetsisSirket:
                     {
-                        String connString = Configuration.ConnectionStringSql;                       
+                        String connString = Configuration.ConnectionStringSql;
+                        connString = connString.Replace("DEFAULT", company);
                         SqlConnection  conn = new SqlConnection(connString);
                         cmd =  new  SqlCommand(commandText, conn);
                         cmd.CommandType = commandType;

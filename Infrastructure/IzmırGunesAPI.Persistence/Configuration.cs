@@ -27,5 +27,16 @@ namespace IzmirGunesAPI.Persistence
                 return configurationManager.GetConnectionString("NetsisSQLConnection");
             }
         }
+        static public string RefreshTokenDbTableName
+        {
+            get
+            {
+                var path = Environment.CurrentDirectory;
+                ConfigurationManager configurationManager = new();
+                configurationManager.SetBasePath(path); ;
+                configurationManager.AddJsonFile("appsettings.json");
+                return configurationManager?.GetSection("RefreshTokenDbTableName")["TableName"];
+            }
+        }
     }
 }

@@ -46,3 +46,15 @@ C:\Users\admin\Desktop\proje\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\
 C:\Users\admin\Desktop\proje\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\refint\IzmirGunesAPI.Domain.dll
 C:\Users\admin\Desktop\proje\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\IzmirGunesAPI.Domain.pdb
 C:\Users\admin\Desktop\proje\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\ref\IzmirGunesAPI.Domain.dll
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\bin\Debug\net6.0\IzmirGunesAPI.Domain.deps.json
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\bin\Debug\net6.0\IzmirGunesAPI.Domain.dll
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\bin\Debug\net6.0\IzmirGunesAPI.Domain.pdb
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\IzmirGunesAPI.Domain.csproj.AssemblyReference.cache
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\IzmirGunesAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\IzmirGunesAPI.Domain.AssemblyInfoInputs.cache
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\IzmirGunesAPI.Domain.AssemblyInfo.cs
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\IzmirGunesAPI.Domain.csproj.CoreCompileInputs.cache
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\IzmirGunesAPI.Domain.dll
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\refint\IzmirGunesAPI.Domain.dll
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\IzmirGunesAPI.Domain.pdb
+D:\s4inProjeler\IzmirGunes\IZMR-API\Core\IzmırGunesAPI.Domain\obj\Debug\net6.0\ref\IzmirGunesAPI.Domain.dll

@@ -17,8 +17,4 @@
     <ProjectReference Include="..\IzmırGunesAPI.Domain\IzmirGunesAPI.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Command\" />
-  </ItemGroup>
-
 </Project>
