@@ -25,8 +25,8 @@ namespace IzmirGunesAPI.Application.Features.Queries.GetDetailInvoice
         public async Task<GetDetailInvoiceQueryResponse> Handle(GetDetailInvoiceQueryRequest request, CancellationToken cancellationToken)
         {
 
-            List <TBLSTHAR> result= await _IDetailInvoice.GetDetailInvoice( request.InvoiceNumber);
-            int GetDedailInvıiceCount = await _GetDetailInvoiceCount.Count(request.InvoiceNumber);
+            List <TBLSTHAR> result= await _IDetailInvoice.GetDetailInvoice( request.InvoiceNumber,request.company);
+            int GetDedailInvıiceCount = await _GetDetailInvoiceCount.Count(request.InvoiceNumber,request.company);
             _logger.LogInformation($"{request.InvoiceNumber} Detay Liste Cekildi");
             return new() { DetailInvoice = result,DetailInvoiceCount=GetDedailInvıiceCount };
         

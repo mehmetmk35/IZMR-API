@@ -22,8 +22,9 @@ namespace IzmirGunesAPI.Persistence
             services.AddScoped<IExistsTable, ExistsTable>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IUserService, UserService>();
-            services.AddScoped<IGetBranchService, GetBranchService>();
+            services.AddScoped<IGetBusinessService, GetBusinessService>();
             services.AddScoped<IGetCompany, GetCompany>();
+            services.AddScoped<IGetBranchService, GetBranchService>();
 
         }
     }

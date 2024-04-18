@@ -10,5 +10,6 @@ namespace IzmirGunesAPI.Application.DTOs.Rest
     {
         public String token { get; set; }
         public Boolean status { get; set; }
+        public string messaj { get; set; }
     }
 }

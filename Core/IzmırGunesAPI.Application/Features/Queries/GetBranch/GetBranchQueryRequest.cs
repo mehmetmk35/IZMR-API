@@ -10,5 +10,6 @@ namespace IzmirGunesAPI.Application.Features.Queries.GetBranch
     public class GetBranchQueryRequest:IRequest<GetBranchQueryResponse>
     {
         public string Company { get; set; }
+        public string BusinessCode { get; set; }
     }
 }

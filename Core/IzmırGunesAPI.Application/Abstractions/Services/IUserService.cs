@@ -1,4 +1,5 @@
-﻿using IzmirGunesAPI.Application.Repositorys.Contexts;
+﻿using IzmirGunesAPI.Application.DTOs.S4inUser;
+using IzmirGunesAPI.Application.Repositorys.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace IzmirGunesAPI.Application.Abstractions.Services
         Task<bool> CreateTableS4inTokenTable(string company, string tableName);
         Task<bool> CreateUserS4inTokenTable(string company, string userName, string tableName);
         Task<bool> CheckUserExistsS4inTable(string company, string userName, string tableName);
+        Task<UserRefreshToken> GetUserRefrehToken(string company, string refreshToken, string tableName);
 
         
 

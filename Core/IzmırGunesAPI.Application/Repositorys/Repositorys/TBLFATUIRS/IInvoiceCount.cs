@@ -8,6 +8,6 @@ namespace IzmirGunesAPI.Application.Repositorys.Repositorys.TBLFATUIRS
 {
     public interface IInvoiceCount
     {
-        public  Task<int>Count();
+        public  Task<int>Count(string company);
     }
 }

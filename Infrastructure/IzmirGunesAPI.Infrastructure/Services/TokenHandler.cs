@@ -26,7 +26,9 @@ namespace IzmirGunesAPI.Infrastructure.Services
         public Token CreateAccessToken(int second,string UserName)
         {
             Token token = new();
+           
 
+              
             //Security Key'in simetriğini alıyoruz.
             SymmetricSecurityKey securityKey = new(Encoding.UTF8.GetBytes(_configuration["Token:SecurityKey"]));
 
@@ -34,12 +36,12 @@ namespace IzmirGunesAPI.Infrastructure.Services
             SigningCredentials signingCredentials = new(securityKey, SecurityAlgorithms.HmacSha256);
 
             //Oluşturulacak token ayarlarını veriyoruz.
-            token.Expiration = DateTime.UtcNow.AddSeconds(second);
+            token.Expiration = Configuration.CurrentTimeTr.AddSeconds(second);
             JwtSecurityToken securityToken = new(
                 audience: _configuration["Token:Audience"],
                 issuer: _configuration["Token:Issuer"],
                 expires: token.Expiration,
-                notBefore: DateTime.UtcNow,
+                notBefore: Configuration.CurrentTimeTr,
                 signingCredentials: signingCredentials,
                 claims: new List<Claim> { new(ClaimTypes.Name, UserName) }
                 );

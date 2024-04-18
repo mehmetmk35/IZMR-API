@@ -20,8 +20,8 @@ namespace IzmirGunesAPI.Application.Features.Queries.GetInvoice
 
         public async Task<GetInvoiceQueryResponse> Handle(GetInvoiceQueryRequest request, CancellationToken cancellationToken)
         {
-           List<TBLFATUIRS> result = await  _TBLFATUIRS.GetFatuirs(request.Page,request.Size);
-            int invoiceCount = await _InvoiceCount.Count();
+           List<TBLFATUIRS> result = await  _TBLFATUIRS.GetFatuirs(request.Page,request.Size,request.company);
+            int invoiceCount = await _InvoiceCount.Count(request.company);
             _logger.LogInformation("TBLFATUIRS LISTELEME İŞLEMİ TAMAMLANDI");
             
             

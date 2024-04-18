@@ -9,6 +9,6 @@ namespace IzmirGunesAPI.Application.Repositorys.Repositorys.TBLSTHAR
 {
     public interface  IGetDetailInvoiceCount:IBaseManager
     {
-        public Task<int> Count(string Fisno);
+        public Task<int> Count(string Fisno, string company);
     }
 }

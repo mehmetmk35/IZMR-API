@@ -11,5 +11,6 @@ namespace IzmirGunesAPI.Application.Features.Queries.GetInvoice
     {
         public int Page { get; set; } = 0;
         public int Size { get; set; } = 5;
+        public string company { get; set; }
     }
 }

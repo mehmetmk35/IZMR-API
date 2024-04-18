@@ -8,7 +8,7 @@ namespace IzmirGunesAPI.Persistence.Repositorys
 {
     public class TblFatuirsRepository : BaseManager, ITblFatuirsRepository
     {
-        public async Task<List<TBLFATUIRS>> GetFatuirs(int Page,int Size)
+        public async Task<List<TBLFATUIRS>> GetFatuirs(int Page,int Size,string company)
         {
             #region GetInvoice
 
@@ -25,7 +25,7 @@ namespace IzmirGunesAPI.Persistence.Repositorys
                                                 JOIN TBLCASABIT CS ON FT.CARI_KODU=CS.CARI_KOD
                                                 order by TARIH DESC 
                                                 OFFSET @OFFSET ROWS FETCH NEXT @NEXT ROW ONLY");
-            IDbCommand cmd = base.PrepareCommand(sorgu, CommandType.Text, Domain.Entity.Enumerations.ConnectionType.NetsisSirket, String.Empty);
+            IDbCommand cmd = base.PrepareCommand(sorgu, CommandType.Text, Domain.Entity.Enumerations.ConnectionType.NetsisSirket, company);
             SqlConnection conn = (SqlConnection)cmd.Connection;
             
             try
@@ -41,15 +41,12 @@ namespace IzmirGunesAPI.Persistence.Repositorys
                     Invoce.InvoiceNumber = base.GetSafeString(datareader, 0, "");
                     Invoce.CustomerCode = base.GetSafeString(datareader, 1, "");
                     Invoce.CustomerName = base.GetSafeString(datareader, 2, "");
-                    Invoce.Date = base.GetSafeDateTime(datareader, 3, DateTime.Now);
+                    Invoce.Date = base.GetSafeDateTime(datareader, 3, Configuration.CurrentTimeTr);
                     Invoce.TotalAmount = base.GetSafeDecimal(datareader, 4, 0);
                     Invoce.ItemCount = base.GetSafeInt16(datareader, 5, 0);
                     List.Add(Invoce);
                 }
-            }
-            catch (Exception ex)
-            {
-            }
+            }            
             finally
             {
                 base.HandleConnection(conn);

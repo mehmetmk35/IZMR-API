@@ -18,7 +18,7 @@ namespace IzmirGunesAPI.Application.Features.Command.AppUser.LogimUser
         }
         public async Task<LoginUserCommandResponse> Handle(LoginUserCommandRequest request, CancellationToken cancellationToken)
         {
-             Token token =  await _authService.LoginAsync(new() { DbName = request.DbName, BranchCode = request.BranchCode, Password = request.Password, UserName = request.UserName }, 60);
+             Token token =  await _authService.LoginAsync(new() { DbName = request.Login.Company, BranchCode = request.Login.Branch, Password = request.Login.Password, UserName = request.Login.UserName });//2SAATLIK TOKEN
             return new LoginUserSuccessCommandResponse()
             {
                 Token = token

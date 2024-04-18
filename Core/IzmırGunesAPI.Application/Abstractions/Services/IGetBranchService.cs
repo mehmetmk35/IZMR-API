@@ -6,6 +6,6 @@ namespace IzmirGunesAPI.Application.Abstractions.Services
 {
     public interface IGetBranchService:IBaseManager
     {
-        Task<List<Branch>> GetBranch(string company);
+        Task<List<Branch>> GetBranch(string company, string businessCode);
     }
 }

@@ -14,6 +14,7 @@ namespace IzmirGunesAPI.Infrastructure.Services
             tokenModel.token = String.Empty;
             
                 HttpResponseMessage response;
+            
 
                 var formContent = new FormUrlEncodedContent(new[]
                         {
@@ -40,9 +41,13 @@ namespace IzmirGunesAPI.Infrastructure.Services
                 tokenModel.token = jsonResponse?.access_token;
                  if (tokenModel.token != null)
                       tokenModel.status = true;
-                  else            
-                      tokenModel.status = false;
+                  else {
+                        tokenModel.status = false;
+                        tokenModel.messaj = jsonResponse?.error_description;
+                       }          
+                      
             return tokenModel;
         }
     }
 }
+

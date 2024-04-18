@@ -10,6 +10,7 @@ namespace IzmirGunesAPI.Application.Abstractions.Services
 {
     public interface IAuthService
     {
-        Task<Token> LoginAsync(RestContent company, int accessTokenLifeTime);
+        Task<Token> LoginAsync(RestContent company);
+        Task<Token> RefreshTokenLoginAsync(string refreshToken, string company,  string userName);
     }
 }

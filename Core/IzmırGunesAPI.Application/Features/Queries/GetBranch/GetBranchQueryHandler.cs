@@ -20,7 +20,7 @@ namespace IzmirGunesAPI.Application.Features.Queries.GetBranch
 
         public async Task<GetBranchQueryResponse> Handle(GetBranchQueryRequest request, CancellationToken cancellationToken)
         {
-            List<Branch> result = await _getBranchService.GetBranch(request.Company);
+            List<Branch> result = await _getBranchService.GetBranch(request.Company,request.BusinessCode);
 
             return new() { Branch = result };
         }

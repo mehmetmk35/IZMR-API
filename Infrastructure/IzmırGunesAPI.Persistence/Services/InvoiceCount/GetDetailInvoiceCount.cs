@@ -13,11 +13,11 @@ namespace IzmirGunesAPI.Persistence.Services.InvoiceCount
 {
     public class GetDetailInvoiceCount : BaseManager, IGetDetailInvoiceCount
     {
-        public async Task<int> Count(string Fisno)
+        public async Task<int> Count(string Fisno, string company)
         {
             int result = 0;
             String sorgu = String.Format(@" select COUNT(*) FROM TBLSTHAR  WHERE FISNO=@FISNO");
-            IDbCommand cmd = base.PrepareCommand(sorgu, CommandType.Text, Domain.Entity.Enumerations.ConnectionType.NetsisSirket, String.Empty);
+            IDbCommand cmd = base.PrepareCommand(sorgu, CommandType.Text, Domain.Entity.Enumerations.ConnectionType.NetsisSirket, company);
             SqlConnection conn = (SqlConnection)cmd.Connection;
 
             try

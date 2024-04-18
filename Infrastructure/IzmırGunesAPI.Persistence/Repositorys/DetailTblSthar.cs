@@ -9,7 +9,7 @@ namespace IzmirGunesAPI.Persistence.Repositorys
 {
     internal class DetailTblSthar : BaseManager, IDetailTblSthar
     {
-        public async Task<List<TBLSTHAR>> GetDetailInvoice(string Fisno)
+        public async Task<List<TBLSTHAR>> GetDetailInvoice(string Fisno,string company)
         {
             List<TBLSTHAR> List = new();
             String sorgu = String.Format(@"SELECT
@@ -22,7 +22,7 @@ namespace IzmirGunesAPI.Persistence.Repositorys
                                             WHERE FISNO=@FISNO
                                               order by STHAR_TARIH DESC 
                                            ");
-            IDbCommand cmd = base.PrepareCommand(sorgu, CommandType.Text, Domain.Entity.Enumerations.ConnectionType.NetsisSirket, String.Empty);
+            IDbCommand cmd = base.PrepareCommand(sorgu, CommandType.Text, Domain.Entity.Enumerations.ConnectionType.NetsisSirket, company);
             SqlConnection conn = (SqlConnection)cmd.Connection;
 
             try
@@ -37,7 +37,7 @@ namespace IzmirGunesAPI.Persistence.Repositorys
                     TBLSTHAR StockMovement = new();
                     StockMovement.StockMovementQuantity = base.GetSafeDecimal(datareader, 0, 0);
                     StockMovement.StockIn_Out = base.GetSafeString(datareader, 1, "");
-                    StockMovement.Date = base.GetSafeDateTime(datareader, 2, DateTime.Now);
+                    StockMovement.Date = base.GetSafeDateTime(datareader, 2, Configuration.CurrentTimeTr);
                     StockMovement.ProductNetPrice = base.GetSafeDecimal(datareader, 3, 0);
                     StockMovement.ProductGrossPrice = base.GetSafeDecimal(datareader, 4, 0);
                     StockMovement.WarehouseCode = base.GetSafeInt16(datareader, 5, 0);

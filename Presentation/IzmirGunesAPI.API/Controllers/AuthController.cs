@@ -1,5 +1,7 @@
 ﻿using IzmirGunesAPI.Application.Features.Command.AppUser.LogimUser;
+using IzmirGunesAPI.Application.Features.Command.AppUser.RefreshTokenLogin;
 using IzmirGunesAPI.Application.Features.Queries.GetBranch;
+using IzmirGunesAPI.Application.Features.Queries.GetBusiness;
 using IzmirGunesAPI.Application.Features.Queries.GetCompany;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -33,6 +35,19 @@ namespace IzmirGunesAPI.API.Controllers
         public async Task<IActionResult> GetBranch([FromQuery] GetBranchQueryRequest getBranchQueryRequest)
         {
             GetBranchQueryResponse response = await _mediator.Send(getBranchQueryRequest);
+            return Ok(response);
+        }
+        [HttpGet("getbusiness")]
+        public async Task<IActionResult> GetBusiness([FromQuery] GetBusinessQueryRequest getBusinessQueryRequest)
+        {
+            GetBusinessQueryResponse response = await _mediator.Send(getBusinessQueryRequest);
+            return Ok(response);
+        }
+
+        [HttpPost("[action]")]
+        public async Task<IActionResult> RefreshTokenLogin([FromBody] RefreshTokenLoginCommadRequest refreshTokenLoginCommad)
+        {
+            RefreshTokenLoginCommadResponse response = await _mediator.Send(refreshTokenLoginCommad);
             return Ok(response);
         }
     }

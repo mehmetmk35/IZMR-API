@@ -19,5 +19,12 @@ namespace IzmirGunesAPI.Infrastructure
                 return configurationManager?.GetSection("Rest")["RestUrl"];
             }
         }
+        static public DateTime CurrentTimeTr
+        {
+            get
+            {
+                return DateTime.UtcNow.AddHours(3);
+            }
+        }
     }
 }
