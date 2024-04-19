@@ -25,7 +25,7 @@ namespace IzmirGunesAPI.API.Extensions
                         {
                             StatusCode = context.Response.StatusCode,
                             Message = contextFeature.Error.Message,
-                            Title = "Hata Alındı"
+                            Title = "Hata Alindi"
 
                         }));
                     }
