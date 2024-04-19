@@ -11,5 +11,7 @@ namespace IzmirGunesAPI.Application.Abstractions.Services
     public interface IRestService
     {
         Task<RestToken> GetToken(RestContent company);
+        Task RemoveRestToken(string Token);
+
     }
 }

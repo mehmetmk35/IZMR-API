@@ -545,3 +545,5 @@ D:\s4inProjeler\IzmirGunes\IZMR-API\Presentation\IzmirGunesAPI.API\obj\Debug\net
 D:\s4inProjeler\IzmirGunes\IZMR-API\Presentation\IzmirGunesAPI.API\obj\Debug\net6.0\ref\IzmirGunesAPI.API.dll
 D:\s4inProjeler\IzmirGunes\IZMR-API\Presentation\IzmirGunesAPI.API\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\s4inProjeler\IzmirGunes\IZMR-API\Presentation\IzmirGunesAPI.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\admin\Desktop\proje\IzmirGunes\IZMR-API\Presentation\IzmirGunesAPI.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\admin\Desktop\proje\IzmirGunes\IZMR-API\Presentation\IzmirGunesAPI.API\bin\Debug\net6.0\Newtonsoft.Json.dll

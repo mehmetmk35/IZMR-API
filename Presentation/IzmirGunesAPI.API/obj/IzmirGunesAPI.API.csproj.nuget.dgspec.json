@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Presentation\\IzmirGunesAPI.API\\IzmirGunesAPI.API.csproj": {}
+    "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Presentation\\IzmirGunesAPI.API\\IzmirGunesAPI.API.csproj": {}
   },
   "projects": {
-    "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj": {
+    "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj",
         "projectName": "IzmirGunesAPI.Application",
-        "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj",
-        "packagesPath": "C:\\Users\\s4in\\.nuget\\packages\\",
-        "outputPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\s4in\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -29,14 +29,15 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj": {
-                "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj"
+              "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj"
               }
             }
           }
@@ -84,25 +85,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj": {
+    "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj",
         "projectName": "IzmirGunesAPI.Domain",
-        "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj",
-        "packagesPath": "C:\\Users\\s4in\\.nuget\\packages\\",
-        "outputPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\IzmirGunesAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\s4in\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -113,6 +114,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -146,25 +148,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\IzmirGunesAPI.Infrastructure.csproj": {
+    "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\IzmirGunesAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\IzmirGunesAPI.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\IzmirGunesAPI.Infrastructure.csproj",
         "projectName": "IzmirGunesAPI.Infrastructure",
-        "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\IzmirGunesAPI.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\s4in\\.nuget\\packages\\",
-        "outputPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\IzmirGunesAPI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\s4in\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -175,14 +177,15 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj": {
-                "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj"
+              "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj"
               }
             }
           }
@@ -230,25 +233,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\IzmirGunesAPI.Persistence.csproj": {
+    "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\IzmirGunesAPI.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\IzmirGunesAPI.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\IzmirGunesAPI.Persistence.csproj",
         "projectName": "IzmirGunesAPI.Persistence",
-        "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\IzmirGunesAPI.Persistence.csproj",
-        "packagesPath": "C:\\Users\\s4in\\.nuget\\packages\\",
-        "outputPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\IzmirGunesAPI.Persistence.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\s4in\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -259,14 +262,15 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj": {
-                "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj"
+              "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj"
               }
             }
           }
@@ -314,25 +318,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Presentation\\IzmirGunesAPI.API\\IzmirGunesAPI.API.csproj": {
+    "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Presentation\\IzmirGunesAPI.API\\IzmirGunesAPI.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Presentation\\IzmirGunesAPI.API\\IzmirGunesAPI.API.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Presentation\\IzmirGunesAPI.API\\IzmirGunesAPI.API.csproj",
         "projectName": "IzmirGunesAPI.API",
-        "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Presentation\\IzmirGunesAPI.API\\IzmirGunesAPI.API.csproj",
-        "packagesPath": "C:\\Users\\s4in\\.nuget\\packages\\",
-        "outputPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Presentation\\IzmirGunesAPI.API\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Presentation\\IzmirGunesAPI.API\\IzmirGunesAPI.API.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Presentation\\IzmirGunesAPI.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\s4in\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -343,21 +347,21 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj": {
-                "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj"
+              "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Core\\IzmırGunesAPI.Application\\IzmirGunesAPI.Application.csproj"
               },
-              "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\IzmirGunesAPI.Infrastructure.csproj": {
-                "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\IzmirGunesAPI.Infrastructure.csproj"
+              "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\IzmirGunesAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmirGunesAPI.Infrastructure\\IzmirGunesAPI.Infrastructure.csproj"
               },
-              "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\IzmirGunesAPI.Persistence.csproj": {
-                "projectPath": "D:\\s4inProjeler\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\IzmirGunesAPI.Persistence.csproj"
+              "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\IzmirGunesAPI.Persistence.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\proje\\IzmirGunes\\IZMR-API\\Infrastructure\\IzmırGunesAPI.Persistence\\IzmirGunesAPI.Persistence.csproj"
               }
             }
           }
@@ -408,7 +412,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

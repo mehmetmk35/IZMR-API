@@ -23,10 +23,12 @@ namespace IzmirGunesAPI.Persistence.Services
         public async Task<Token> LoginAsync(RestContent company)
         {
             RestToken result = await _restService.GetToken(company);
+             
             //RestToken result = await _restService.GetToken(new() { GrantType = "password", BranchCode = "0", Password = "SISBIM%", UserName = "SISBIM", DbName = "GULYAPANAS2023", DbUser = "TEMELSET", DbPassword = "", Dbtype = "0" });
             if (result.status==false)
                  throw new NotFoundUserException(result.messaj);
             if (result.status==true) {
+                await _restService.RemoveRestToken(result.token); // netsis tarafından  token silme
                 Token token =   _tokenHandler.CreateAccessToken(Configuration.TokenTimePeriot, company.UserName);
                 await _userService.UpdateRefreshTokenAsync(token.RefreshToken, company.UserName, token.Expiration, Configuration.RefreshTokenTimePeriot, company.DbName); //1 SAATİIK  REF TOKEN 
                 return token;

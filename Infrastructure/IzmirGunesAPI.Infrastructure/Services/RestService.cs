@@ -2,6 +2,7 @@
 using IzmirGunesAPI.Application.DTOs.Rest;
 using IzmirGunesAPI.Application.DTOs.Token;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace IzmirGunesAPI.Infrastructure.Services
 {
@@ -44,9 +45,21 @@ namespace IzmirGunesAPI.Infrastructure.Services
                   else {
                         tokenModel.status = false;
                         tokenModel.messaj = jsonResponse?.error_description;
-                       }          
-                      
+                       }
+
+           
             return tokenModel;
+        }
+
+        public async Task RemoveRestToken(string token)
+        {
+            HttpResponseMessage response;
+            using HttpClient client = new HttpClient();           
+                client.BaseAddress = new Uri(new Uri(Configuration.Rest_RestUrl), "api/v2/revoke");
+                client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
+                response = await client.GetAsync(client.BaseAddress.AbsoluteUri);           
+            var result = response.Content.ReadAsStringAsync().Result;
+            response.Dispose();
         }
     }
 }
